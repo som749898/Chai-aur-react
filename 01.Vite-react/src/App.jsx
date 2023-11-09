@@ -1,9 +1,10 @@
 import Test from "./Test"
 
 function App() {
+  const globalVariable = "Technology"
   return (
     <>
-     <h1>Hii</h1>
+     <h1>Hii {globalVariable}</h1>
      <Test/>
     </>
   )
